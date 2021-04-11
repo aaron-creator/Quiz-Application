@@ -10,18 +10,21 @@
         </b-col>
       </b-row>
     </b-container>
+    <Tutorials />
   </div>
 </template>
 
 <script>
 import Header from './components/Header.vue'
 import QuestionBox from "./components/QuestionBox"
+import Tutorials from './components/Tutorials.vue'
 
 export default {
   name: 'App',
   components: {
     Header,
-    QuestionBox
+    QuestionBox,
+    Tutorials
   },
   data: function(){
     return {
