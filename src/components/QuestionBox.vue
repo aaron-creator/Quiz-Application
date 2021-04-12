@@ -9,7 +9,7 @@
             <hr class="my-4">
 
             <p>
-            List of Answers
+            List of A
             </p>
 
             <b-button variant="primary" href="#">Submit</b-button>
