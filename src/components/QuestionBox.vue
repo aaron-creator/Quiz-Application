@@ -21,7 +21,7 @@
 export default {
     props:{
         currentQuestion: Object, 
-        next : function
+        next : Function
     }
 }
 </script>
