@@ -6,6 +6,7 @@
         <b-col sm="6" offset="3" >
           <QuestionBox 
             :currentQuestion = "questions[index]"
+            :next="next"
           />
         </b-col>
       </b-row>
@@ -32,6 +33,13 @@ export default {
       index:0
     }
   },
+
+  methods:{
+    next(){
+      this.index++;
+    }
+  },
+
   mounted: function(){
     fetch("https://opentdb.com/api.php?amount=10&category=27&type=multiple", {
       method: "get"
